@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "composite": true,
+    "target": "ESNext",
+    "noEmit": true,
+    "strict": true,
+    "lib": ["DOM", "ESNext"],
+    "types": []
+  }
+}
